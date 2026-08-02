@@ -10,11 +10,6 @@ Cada clase representa una figura distinta y sobrescribe métodos para calcular *
 - Documentar con XML y mantener código modular y claro.
 - Practicar principios **SOLID** y **KISS**.
 
-## Contenido del proyecto
-| Ejercicio | Clase/Archivo | Descripción |
-|-----------|---------------|-------------|
-| Figuras   | circulo.cs, cuadrado.cs, elipse.cs, figura.cs, programa.cs, rectángulo.cs, rombo.cs, trapecio.cs, triangulo.cs  | Modelado de figuras geométricas con herencia y polimorfismo. |
-
 ## Pilares aplicados
 - **Abstracción:** Clase abstracta `figura`.  
 - **Herencia:** Figuras (`Rectangulo`, `Circulo`, etc.) heredan de `figura`.  
@@ -46,7 +41,12 @@ Cada clase representa una figura distinta y sobrescribe métodos para calcular *
   El `programa` depende de la abstracción `figura` y no de detalles internos de cada clase.  
   Esto permite que el código sea flexible y escalable, ya que se basa en contratos 
 - **KISS:** Métodos claros para área y perímetro.  
-- **YAGNI:** Sin atributos innecesarios.  
+- **YAGNI:** Sin atributos innecesarios. 
+
+## Contenido del proyecto
+| Ejercicio | Clase/Archivo | Descripción |
+|-----------|---------------|-------------|
+| Figuras   | circulo.cs, cuadrado.cs, elipse.cs, figura.cs, programa.cs, rectángulo.cs, rombo.cs, trapecio.cs, triangulo.cs  | Modelado de figuras geométricas con herencia y polimorfismo. |
 
 ## Estructura del proyecto
 ```text
