@@ -30,14 +30,17 @@ public class elipse : figura
     /// Calcula el área de la elipse.
     /// </summary>
     /// <returns>Área = π * semiejeMayor * semiejeMenor.</returns>
-    public override double areaFigura() => Math.PI * semiejeMayorElipse * semiejeMenorElipse;
+    public override double areaFigura() => Math.PI * semiejeMayorElipse 
+    * semiejeMenorElipse;
      
     /// <summary>
     /// Muestra información detallada de la elipse.
     /// </summary>
     public override void mostrarInformacion()
     {
-        Console.WriteLine($"Figura: {nombreFigura} - SemiejeMayor: {semiejeMayorElipse} - SemiejeMenor: {semiejeMenorElipse} - Perímetro: {perimetroFigura()} - Área: {areaFigura()}");
+        Console.WriteLine($"Figura: {nombreFigura} - SemiejeMayor: {semiejeMayorElipse} ");
+        Console.Write($"- SemiejeMenor: {semiejeMenorElipse} - Perímetro: {perimetroFigura()}");
+        Console.Write($"- Área: {areaFigura()}");
     }
 }
                             

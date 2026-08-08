@@ -38,7 +38,7 @@ public class rombo: figura
     /// Calcula el perímetro del rombo.
     /// </summary>
     /// <returns>Perímetro en centímetros.</returns>
-    public double perimetroFigura()
+    public override double perimetroFigura()
     {
         return 4 * Lado;
     }
@@ -47,7 +47,7 @@ public class rombo: figura
     /// Calcula el área del rombo.
     /// </summary>
     /// <returns>Área en centímetros cuadrados.</returns>
-    public double areaFigura()
+    public override double areaFigura()
     {
         return (DiagonalMayor * DiagonalMenor) / 2;
     }

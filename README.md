@@ -1,8 +1,10 @@
-# Proyecto: herenciaCSharp
+## Proyecto: herenciaCSharp
 
 ## Descripción
 Este proyecto contiene ejercicios en C# que aplican **herencia y polimorfismo** para modelar figuras geométricas.  
 Cada clase representa una figura distinta y sobrescribe métodos para calcular **área y perímetro**, manteniendo un enfoque en **código limpio y documentado**.
+
+---
 
 ## Objetivos
 - Aplicar clases abstractas para definir contratos comunes.
@@ -10,14 +12,20 @@ Cada clase representa una figura distinta y sobrescribe métodos para calcular *
 - Documentar con XML y mantener código modular y claro.
 - Practicar principios **SOLID** y **KISS**.
 
+---
+
 ## Pilares aplicados
 - **Abstracción:** Clase abstracta `figura`.  
 - **Herencia:** Figuras (`Rectangulo`, `Circulo`, etc.) heredan de `figura`.  
 - **Polimorfismo:** Sobrescritura de `areaFigura`, `perimetroFigura`.  
 - **Encapsulación:** Propiedades en cada figura.  
 
+---
+
 ## Sobrecarga
 - Constructores sobrecargados para inicializar figuras con distintos parámetros.    
+
+---
 
 ## Principios aplicados
 - **SOLID:** Cada clase representa una figura con responsabilidad única.  
@@ -43,10 +51,19 @@ Cada clase representa una figura distinta y sobrescribe métodos para calcular *
 - **KISS:** Métodos claros para área y perímetro.  
 - **YAGNI:** Sin atributos innecesarios. 
 
+---
+
 ## Contenido del proyecto
 | Ejercicio | Clase/Archivo | Descripción |
 |-----------|---------------|-------------|
 | Figuras   | circulo.cs, cuadrado.cs, elipse.cs, figura.cs, programa.cs, rectángulo.cs, rombo.cs, trapecio.cs, triangulo.cs  | Modelado de figuras geométricas con herencia y polimorfismo. |
+
+---
+
+## Tecnologías usadas
+- C#
+- .NET SDK
+- Visual Studio / Visual Studio Code
 
 ## Estructura del proyecto
 ```text
@@ -56,8 +73,8 @@ figurasCSharp/
 └── README.md
 
 Rectángulo - Perímetro: 30 - Área: 50
-Círculo - Perímetro: 43,982297150257104 - Área: 153,93804002589985
-Elipse - Perímetro: 31,41592653589793 - Área: 75,39822368615503
+Círculo - Perímetro: 43,98 - Área: 153,94
+Elipse - Perímetro: 31,42 - Área: 75,4
 trapecio - Perímetro: 26 - Área: 32
 rombo - Perímetro: 16 - Área: 12
 cuadrado - Perímetro: 20 - Área: 25
@@ -66,5 +83,4 @@ Triángulo - Perímetro: 12 - Área: 6
 ## Autor
 Cristian Alexis Lucio Narváez  
 Proyecto académico y portafolio profesional en C#.
-
 

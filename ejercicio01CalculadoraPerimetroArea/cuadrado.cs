@@ -25,7 +25,8 @@ public class cuadrado : figura
 
     public override void mostrarInformacion()
     {
-         Console.WriteLine($"Figura: {nombreFigura} - Lado: {ladoCuadrado} - Perímetro: {perimetroFigura()} - Área: {areaFigura()}");
+         Console.Write($"Figura: {nombreFigura} - Lado: {ladoCuadrado} ");
+         Console.WriteLine($"- Perímetro: {perimetroFigura()} - Área: {areaFigura()}");
     }
     
 }
